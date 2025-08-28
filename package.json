@@ -4,9 +4,17 @@
   "description": "prototipo de um site, para já ir me familiarizando com a construção da DM!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+
+
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
 }
